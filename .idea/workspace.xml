@@ -2,16 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d133e9-b0a6-4b99-835d-b4b71803f083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TernaryOperator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classObject/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoApp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitChangeApp/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templateSyntax/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templateSyntax/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templateSyntax/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/templateSyntax/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoList/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/filter/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoList/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/filter/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoList/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/filter/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/unit/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/unit/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstProject/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,26 +58,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue-router-project/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samle02-vue-router/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,11 +160,6 @@
             <path>
               <item name="VueStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="VueStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="samle02-vue-router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VueStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VueStudy" type="462c0819:PsiDirectoryNode" />
               <item name="vue-router-project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -169,6 +172,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -226,7 +230,7 @@
       <workItem from="1559633039462" duration="4135000" />
       <workItem from="1559781804922" duration="3552000" />
       <workItem from="1559799847713" duration="979000" />
-      <workItem from="1559802444342" duration="1363000" />
+      <workItem from="1559802444342" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="[finish] TODOList">
       <created>1558087466639</created>
@@ -246,7 +250,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61652000" />
+    <option name="totallyTimeSpent" value="61664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,9 +263,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17095852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17095852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="デザイナー" order="3" />
