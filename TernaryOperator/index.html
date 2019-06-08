@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>クラスに三項演算子を使う</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="app">
+    <p>
+<!--        三項演算子-->
+<!--        condition ? expr1 : expr2 -->
+        Hello <span v-bind:class="[isLarge ? largeClass : '', dangerClass]">Vue.js</span>
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>チェックボックス 複数</title>
+</head>
+<body>
+<div id="app">
+    <input type="checkbox" id="Red" value="Red" v-model="colors">
+    <label for="Red">Red</label>
+    <input type="checkbox" id="Green" value="Green" v-model="colors">
+    <label for="Green">Green</label>
+    <input type="checkbox" id="Blue" value="Blue" v-model="colors">
+    <label for="Blue">Blue</label>
+
+    <p>
+        {{ colors }}
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

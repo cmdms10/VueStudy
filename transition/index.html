@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>watch,deep</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div id="app">
+    <button v-on:click="show=!show">
+        Change
+    </button>
+
+    <transition>
+<!--        class="v-enter-active v-center-to"  -->
+        <p v-show="show">
+            Hello Transition
+        </p>
+    </transition>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

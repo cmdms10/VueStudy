@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ラジオボタン</title>
+</head>
+<body>
+<div id="app">
+    <input type="radio" id="red" value="Red" v-model="color">
+    <label for="red">Red</label>
+    <input type="radio" id="green" value="Green" v-model="color">
+    <label for="green">Green</label>
+    <input type="radio" id="blue" value="Blue" v-model="color">
+    <label for="blue">Blue</label>
+
+    <p>
+        {{ color }}
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

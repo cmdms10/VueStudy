@@ -2,16 +2,14 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>テンプレート構文</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
 <div id="app">
-    <h2>マスタッシュ</h2>
-    {{ price | numberFormat }}
-
-    <h2>v-bind</h2>
-    <input type="text" v-bind:value="price | numberFormat">
+    <p>
+        Hello <span v-bind:class="classObject">Vue.js</span>
+    </p>
 </div>
 
 

@@ -2,19 +2,17 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>テンプレート構文</title>
+    <title>修飾子 .number</title>
 </head>
 <body>
+    <div id="app">
+        <input type="number" v-model.number="age" >
 
-<div id="app">
-    <h2>マスタッシュ</h2>
-    {{ price | numberFormat }}
+        <p>
+            {{ age + 10 }}
+        </p>
 
-    <h2>v-bind</h2>
-    <input type="text" v-bind:value="price | numberFormat">
-</div>
-
-
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script src="./js/main.js"></script>
 </body>

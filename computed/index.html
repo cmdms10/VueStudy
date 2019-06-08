@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+<!--    算出プロパティ-->
+    <p>
+        {{ reversedMessage }}
+    </p>
+<!--    メソッドプロパティ-->
+    <p>
+        {{ reversedMessageMethod() }}
+    </p>
+
+
+    <p>
+        base price: <input type="text" v-model="basePrice">
+    </p>
+    <p>
+        tax include price <input type="text" v-model="taxIncludedPrice">
+    </p>
+
+
+<!--算出プロパティのキャッシュ-->
+    <h2>
+        computed
+    </h2>
+    <ul>
+        <li>{{ computedNumber }}</li>
+        <li>{{ computedNumber }}</li>
+        <li>{{ computedNumber }}</li>
+    </ul>
+
+    <h2>
+        Methods
+    </h2>
+    <ul>
+        <li>{{ methodsNumber() }}</li>
+        <li>{{ methodsNumber() }}</li>
+        <li>{{ methodsNumber() }}</li>
+    </ul>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

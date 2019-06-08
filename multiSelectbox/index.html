@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>セレクトボックス複数</title>
+</head>
+<body>
+<div id="app">
+    <select v-model="selected" multiple>
+        <option disabled value="">Please select one</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Blue</option>
+    </select>
+    <p>
+        {{ selected }}
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
